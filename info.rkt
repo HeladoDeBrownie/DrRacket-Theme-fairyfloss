@@ -60,7 +60,7 @@
 (define deps '("base"))
 (define colors `(; Colors
                  #;(drracket:syncheck:document-identifier    #f)
-                 #;(drracket:syncheck:matching-identifiers   #f)
+                 (drracket:syncheck:matching-identifiers   ,background)
                  #;(drracket:syncheck:tail-arrow             #f)
                  #;(drracket:syncheck:template-arrow         #f)
                  #;(drracket:syncheck:untacked               #f)
