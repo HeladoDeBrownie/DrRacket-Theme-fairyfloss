@@ -69,7 +69,7 @@
                  (framework:basic-canvas-background        ,background)
                  (framework:default-text-color             ,foreground)
                  #;(framework:misspelled-text-color          #f)
-                 #;(framework:paren-match-color              #f)
+                 (framework:paren-match-color              ,line-highlight)
 
                  ; Styles
                  #;(drracket:check-syntax:both-obligation-style-pref  #f)
