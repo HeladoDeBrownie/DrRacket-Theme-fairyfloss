@@ -74,13 +74,14 @@
                  ; Styles
                  #;(drracket:check-syntax:both-obligation-style-pref  #f)
                  #;(drracket:check-syntax:free-variable               #f)
-                 #;(drracket:check-syntax:imported                    #f)
-                 #;(drracket:check-syntax:lexically-bound             #f)
+                 (drracket:check-syntax:imported                    ,library-function:foreground)
+                 (drracket:check-syntax:lexically-bound             ,user-defined-constant:foreground)
                  #;(drracket:check-syntax:my-obligation-style-pref    #f)
                  #;(drracket:check-syntax:set!d                       #f)
                  #;(drracket:check-syntax:their-obligation-style-pref #f)
                  #;(drracket:check-syntax:unk-obligation-style-pref   #f)
-                 #;(drracket:check-syntax:unused-require              #f)
+                 (drracket:check-syntax:unused-require              ,invalid-deprecated:foreground
+                                                                    #s(background ,invalid-deprecated:background))
                  (drracket:read-eval-print-loop:error-color         ,invalid:foreground
                                                                     #s(background ,invalid:background))
                  (drracket:read-eval-print-loop:out-color           ,string:foreground)
