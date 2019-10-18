@@ -96,6 +96,8 @@
                  (framework:syntax-color:scheme:string              ,string:foreground)
                  (framework:syntax-color:scheme:symbol              ,user-defined-constant:foreground)
                  #;(framework:syntax-color:scheme:text                #f)
+                 #;(plt:htdp:test-coverage-off                        #f)
+                 #;(plt:htdp:test-coverage-on                         #f)
                  #;(plt:module-language:test-coverage-off             #f)
                  #;(plt:module-language:test-coverage-on              #f)))
 (define framework:color-schemes `(#hash((name . "Fairy Floss")
