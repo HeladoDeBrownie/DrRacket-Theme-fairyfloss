@@ -3,7 +3,6 @@
 ; Mechanical translation of values from original theme
 
 (define background     #( 90  84 117))
-(define caret          #(248 248 240))
 (define foreground     #(248 248 242))
 (define invisibles     #(168 117 123))
 (define line-highlight #(113 103 153))
@@ -13,41 +12,23 @@
 
 (define string:foreground #(255 234   0))
 
-(define number:foreground #(197 163 255))
-
 (define built-in-constant:foreground #(197 163 255))
 
 (define user-defined-constant:foreground #(197 163 255))
 
 (define keyword:foreground #(255 184 209))
 
-(define storage:foreground #(255 184 209))
-
-(define storage-type:font-style 'italic)
-(define storage-type:foreground #(194 255 223))
-
-(define class-name:font-style 'underline)
 (define class-name:foreground #(255 243  82))
 
-(define inherited-class:font-style/1 'italic)
-(define inherited-class:font-style/2 'underline)
 (define inherited-class:foreground   #(255 243  82))
 
 (define function-name:foreground #(255 243  82))
 
-(define function-argument:font-style 'italic)
 (define function-argument:foreground #(255 133 127))
-
-(define tag-name:foreground #(255 184 209))
 
 (define tag-attribute:foreground #(255 243  82))
 
 (define library-function:foreground #(194 255 223))
-
-(define library-constant:foreground #(194 255 223))
-
-(define library-class/type:font-style 'italic)
-(define library-class/type:foreground #(194 255 223))
 
 (define invalid:background #(249  38 114))
 (define invalid:foreground #(248 248 240))
