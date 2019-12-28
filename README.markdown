@@ -11,3 +11,5 @@ Alternatively, run the following from command line:
 [helado de brownie]:    https://github.com/HeladoDeBrownie
 [sailorhg]:             https://github.com/sailorhg
 [fairyfloss]:           https://github.com/sailorhg/fairyfloss
+
+![screenshot](screenshot.png)
