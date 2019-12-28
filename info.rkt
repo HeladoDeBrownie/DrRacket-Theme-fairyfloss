@@ -66,6 +66,6 @@
                  (plt:module-language:test-coverage-on              ,foreground)))
 
 (define deps '("base"))
-(define framework:color-schemes `(#hash((name . "Fairy Floss")
+(define framework:color-schemes `(#hash((name . "fairyfloss")
                                         (white-on-black-base? . #t)
                                         (colors . ,colors))))
