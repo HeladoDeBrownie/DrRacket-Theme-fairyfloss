@@ -59,16 +59,16 @@
 
 (define deps '("base"))
 (define colors `(; Colors
-                 #;(drracket:syncheck:document-identifier    #f)
+                 (drracket:syncheck:document-identifier    ,background)
                  (drracket:syncheck:matching-identifiers   ,background)
-                 #;(drracket:syncheck:tail-arrow             #f)
-                 #;(drracket:syncheck:template-arrow         #f)
-                 #;(drracket:syncheck:untacked               #f)
-                 #;(drracket:syncheck:unused-identifier      #f)
-                 #;(drracket:syncheck:var-arrow              #f)
+                 (drracket:syncheck:tail-arrow             ,comment:foreground)
+                 (drracket:syncheck:template-arrow         ,comment:foreground)
+                 (drracket:syncheck:untacked               ,comment:foreground)
+                 (drracket:syncheck:unused-identifier      ,comment:foreground)
+                 (drracket:syncheck:var-arrow              ,comment:foreground)
                  (framework:basic-canvas-background        ,background)
                  (framework:default-text-color             ,foreground)
-                 #;(framework:misspelled-text-color          #f)
+                 (framework:misspelled-text-color          ,invalid:background)
                  (framework:paren-match-color              ,line-highlight)
 
                  ; Styles
