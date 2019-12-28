@@ -72,14 +72,15 @@
                  (framework:paren-match-color              ,line-highlight)
 
                  ; Styles
-                 #;(drracket:check-syntax:both-obligation-style-pref  #f)
-                 #;(drracket:check-syntax:free-variable               #f)
+                 (drracket:check-syntax:both-obligation-style-pref  ,comment:foreground)
+                 (drracket:check-syntax:free-variable               ,invalid-deprecated:foreground
+                                                                    #s(background ,invalid-deprecated:background))
                  (drracket:check-syntax:imported                    ,library-function:foreground)
                  (drracket:check-syntax:lexically-bound             ,user-defined-constant:foreground)
-                 #;(drracket:check-syntax:my-obligation-style-pref    #f)
-                 #;(drracket:check-syntax:set!d                       #f)
-                 #;(drracket:check-syntax:their-obligation-style-pref #f)
-                 #;(drracket:check-syntax:unk-obligation-style-pref   #f)
+                 (drracket:check-syntax:my-obligation-style-pref    ,user-defined-constant:foreground)
+                 (drracket:check-syntax:set!d                       ,invalid:background)
+                 (drracket:check-syntax:their-obligation-style-pref ,library-function:foreground)
+                 (drracket:check-syntax:unk-obligation-style-pref   ,foreground)
                  (drracket:check-syntax:unused-require              ,invalid-deprecated:foreground
                                                                     #s(background ,invalid-deprecated:background))
                  (drracket:read-eval-print-loop:error-color         ,invalid:foreground
