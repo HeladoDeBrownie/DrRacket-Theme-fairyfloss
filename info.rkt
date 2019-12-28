@@ -97,10 +97,12 @@
                  (framework:syntax-color:scheme:string              ,string:foreground)
                  (framework:syntax-color:scheme:symbol              ,user-defined-constant:foreground)
                  (framework:syntax-color:scheme:text                ,foreground)
-                 #;(plt:htdp:test-coverage-off                        #f)
-                 #;(plt:htdp:test-coverage-on                         #f)
-                 #;(plt:module-language:test-coverage-off             #f)
-                 #;(plt:module-language:test-coverage-on              #f)))
+                 (plt:htdp:test-coverage-off                        ,invalid:foreground
+                                                                    #s(background ,invalid:background))
+                 (plt:htdp:test-coverage-on                         ,foreground)
+                 (plt:module-language:test-coverage-off             ,invalid:foreground
+                                                                    #s(background ,invalid:background))
+                 (plt:module-language:test-coverage-on              ,foreground)))
 (define framework:color-schemes `(#hash((name . "Fairy Floss")
                                         (white-on-black-base? . #t)
                                         (colors . ,colors))))
