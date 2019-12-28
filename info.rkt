@@ -96,7 +96,7 @@
                  (framework:syntax-color:scheme:parenthesis         ,foreground)
                  (framework:syntax-color:scheme:string              ,string:foreground)
                  (framework:syntax-color:scheme:symbol              ,user-defined-constant:foreground)
-                 #;(framework:syntax-color:scheme:text                #f)
+                 (framework:syntax-color:scheme:text                ,foreground)
                  #;(plt:htdp:test-coverage-off                        #f)
                  #;(plt:htdp:test-coverage-on                         #f)
                  #;(plt:module-language:test-coverage-off             #f)
