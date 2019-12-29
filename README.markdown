@@ -2,11 +2,11 @@ This is a DrRacket package providing a port by [helado de brownie] of [sailorhg]
 
 To install this package from within DrRacket, go to `File→Package Manager→Do What I Mean`, paste the following URI into the `Package Source` field, and press `Install`:
 
-    https://github.com/HeladoDeBrownie/DrRacket-Theme-fairyfloss.git
+    https://github.com/HeladoDeBrownie/DrRacket-Theme-fairyfloss.git#Stable
 
 Alternatively, run the following from command line:
 
-    raco pkg install https://github.com/HeladoDeBrownie/DrRacket-Theme-fairyfloss.git
+    raco pkg install https://github.com/HeladoDeBrownie/DrRacket-Theme-fairyfloss.git#Stable
 
 [helado de brownie]:    https://github.com/HeladoDeBrownie
 [sailorhg]:             https://github.com/sailorhg
