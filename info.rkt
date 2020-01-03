@@ -66,8 +66,10 @@
                                                                     #s(background ,error))
                  (plt:module-language:test-coverage-on              ,basic-foreground)))
 
-;# Configuration
+;# Metadata
 
+(define collection "fairyfloss")
+(define version "1.0.1")
 (define deps '("base"))
 (define framework:color-schemes `(#hash((name . "fairyfloss")
                                         (white-on-black-base? . #t)
